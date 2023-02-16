@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+
+html {
+    background-color: skyblue;
+    font-family: 'ABeeZee', 'Regular 400';
+    font-size: 16px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#b575d1;
+}
+
+li {
+    color: white;
+    padding: 14px;
+}

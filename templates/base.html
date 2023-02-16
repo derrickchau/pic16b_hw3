@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='custom.css') }}">
+    <title>{% block title %}{% endblock %} - Message Bank</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>A Simple Message Bank</h1>
+    </header>
+
+    <main>
+      <nav>
+        {% block nav %}{% endblock %}
+      </nav>
+
+      <section class="content">
+        <header>
+          {% block header %}{% endblock %}
+        </header>
+        {% block content %}{% endblock %}
+      </section>
+    </main>
+  </body>
+
+</html>
